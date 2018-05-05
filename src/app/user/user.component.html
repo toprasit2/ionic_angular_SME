@@ -1,3 +1,5 @@
-<p>
-  user works!
-</p>
+<div *ngFor="let user of users">
+  {{user.name}}
+  <span class="glyphicon glyphicon-star" *ngIf="user.status == 'single'"></span>
+  <span class="glyphicon glyphicon-heart" *ngIf="user.status == 'married'"></span>
+</div>
