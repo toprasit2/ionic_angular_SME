@@ -5,6 +5,17 @@
   </h1>
   <h1>{{my_name}}</h1>
 </div>
-<input [(ngModel)]="title" type="text">
-<button class="btn btn-success">Save</button>
+<div class="container">
+    <form class="form-horizontal">
+        <div class="form-group">
+          <label for="title" class="col-md-2 control-label">Title</label>
+          <div class="col-md-6">
+            <input [(ngModel)]="title" type="text" class="form-control" name="title">
+          </div>
+          <button class="btn btn-primary col-md-2">HELLO</button>
+        </div>
+      </form>
+</div>
+<app-contact></app-contact>
+
 
