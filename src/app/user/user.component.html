@@ -1,0 +1,5 @@
+<div *ngFor="let user of users" [appHighlight]="user.status" [test]= "'1'">
+  {{user.name}}
+  <span class="glyphicon glyphicon-star" *ngIf="user.status == 'single'"></span>
+  <span class="glyphicon glyphicon-heart" *ngIf="user.status == 'married'"></span>
+</div>
