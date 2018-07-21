@@ -1,5 +1,5 @@
 <div>
-    <input type="text" [(ngModel)]="title">
+    <input type="text" [(ngModel)]="title" (change)="debug($event)">
     {{title}}
 </div>
 
