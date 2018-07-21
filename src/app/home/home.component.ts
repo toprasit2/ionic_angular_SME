@@ -8,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
+<<<<<<< HEAD
   debug(e){
     console.log("hello",e)
   }
+=======
+
+>>>>>>> master
   ngOnInit() {
   }
 
